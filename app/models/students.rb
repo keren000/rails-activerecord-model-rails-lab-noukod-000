@@ -1,4 +1,4 @@
-class Student < ActiveRecord::Base
+class Students < ActiveRecord::Base
 
   def to_s
     first_name+" "+last_name
